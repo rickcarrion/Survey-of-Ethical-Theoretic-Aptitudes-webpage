@@ -1,0 +1,25 @@
+.wrap {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  color: var(--text-muted);
+  user-select: none;
+}
+
+.svg {
+  display: block;
+}
+
+/* Size variants */
+.wrap.sm .svg  { width: 48px;  height: auto; }
+.wrap.md .svg  { width: 64px;  height: auto; }
+.wrap.lg .svg  { width: 80px;  height: auto; }
+
+.credit {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .04em;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
