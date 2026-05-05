@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(del \"c:\\\\Users\\\\ricar\\\\Documents\\\\GitHub\\\\Survey of Ethical Theoretic Aptitudes webpage\\\\src\\\\App.css\")"
+      "Bash(del \"c:\\\\Users\\\\ricar\\\\Documents\\\\GitHub\\\\Survey of Ethical Theoretic Aptitudes webpage\\\\src\\\\App.css\")",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\('name',''\\)\\)\")"
     ]
   }
 }
